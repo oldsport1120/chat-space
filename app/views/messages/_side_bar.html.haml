@@ -2,14 +2,14 @@
   .side-bar__user-name
     .side-bar__user-name__side-box
       %p.side-bar__user-name__side-box__name
-        masa
+        = current_user.name
       %ul.side-bar__user-name__side-box__menu
         %li.side-bar__user-name__side-box__menu__new
           = link_to "#" do
             %i.far.fa-edit
         %li.side-bar__user-name__side-box__menu__cog
-          = link_to "#" do
-            %i.fas.fa-cog
+          = link_to edit_user_path(current_user) do
+            = icon('fas', 'cog', class: 'icon')
   .group-list
     .group-list__group
       %p.group-list__group__group-name
