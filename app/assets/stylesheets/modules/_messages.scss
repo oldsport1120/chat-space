@@ -104,18 +104,22 @@ $color1: #ffffff;
     box-sizing: border-box;
     padding: 46px 40px 0;
     overflow: scroll;
+    .message {
+      padding-bottom: 40px;
+    }
+      
     &__group {
       display: flex;
       &__name {
         color: #333333;
         font-size: 16px;
         font-weight: bold;
+      }
       &__date {
           color: #999999;
           font-size: 12px;
           padding-left: 10px;
         }
-      }
     &__message {
       margin-top: 10px;
       &__content {
