@@ -103,6 +103,7 @@ $color1: #ffffff;
     height: calc(100vh - 190px);
     box-sizing: border-box;
     padding: 46px 40px 0;
+    overflow: scroll;
     &__group {
       display: flex;
       &__name {
