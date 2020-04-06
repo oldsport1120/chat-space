@@ -46,6 +46,9 @@ $color1: #ffffff;
   .group-list {
     background-color: #2f3e51;
     height: calc(100vh - 100px);
+    a {
+      text-decoration: none;
+    }
     &__group {
       color: $color1;
       font: bold;
@@ -92,6 +95,7 @@ $color1: #ffffff;
       width: 72px;
       padding: 10px 20px;
       border: 1px solid #38aef0;
+      display: flex;
       .edit-link {
         text-decoration: none;
         color: #38aef0;
@@ -140,6 +144,7 @@ $color1: #ffffff;
       float: left;
       height: 50px;
       width: calc(100% - 150px);
+      padding: 0 15px;
     }
     &__input-box {
       background-color: $color1;
